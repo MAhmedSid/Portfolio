@@ -1,0 +1,50 @@
+* {
+  box-sizing: inherit;
+}
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: auto;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  user-select: none;
+}
+
+/* HOVER STYLE FOR SOCIAL ICONS */
+.hoverBg:hover {
+  color: aliceblue;
+  background: linear-gradient(225deg, #ff3cac 0%, #784ba0 50%, #2b86c5 100%);
+  border: none;
+}
+
+/* BACKGROUND FOR SKILL CARDS */
+.cardBg {
+  background-image: url("./assets/cardBg.png");
+  background-size: cover;
+  background-position: center;
+}
+
+/* PREVENTING FROM USER DRAGGING (TEXT ,IMAGE) */
+.nodrag {
+  -webkit-user-drag: none;
+}
+
+/* SCROLL BAR STYLING */
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(10deg, rgb(24, 22, 22), rgb(43, 42, 42));
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(225deg, #0536bd 0%, #32126e 50%, #0074c7 100%);
+}

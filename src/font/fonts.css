@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+/* font-family: 'Montserrat', sans-serif; */
+
+
+/* FONT USED IN NAME */
+@import url("https://fonts.googleapis.com/css?family=Catamaran:900&display=swap");
+
+
+@font-face {
+    font-family: "baloo2";
+    src: url("./baloo2.ttf") format("truetype");
+}
+
+
