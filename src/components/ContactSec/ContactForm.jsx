@@ -38,7 +38,7 @@ const ContactForm = () => {
   const [runConfetti, setRunConfetti] = useState(false);
 
   // USEFORM HOOK FOR SUBMITTING FORM TO FORMSPREE.
-  const [state, handleSubmitFormSpree] = useForm(formId);
+  const [state, handleSubmitFormSpree] = useForm({formId});
 
   // FORMIK FORM STRUCTURING
   const { touched, errors, getFieldProps, handleSubmit } = useFormik({
