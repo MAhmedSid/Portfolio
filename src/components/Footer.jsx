@@ -30,16 +30,16 @@ const Footer = () => {
         </Text>
         <HStack mb={["4", "4"]}>
           <Link
-            data-aos="zoom-in"
-            data-aos-once="true"
+            // data-aos="zoom-in"
+            // data-aos-once="true"
             href="https://github.com/MAhmedSid"
             target="_blank"
           >
             <i className="hoverBg    fa-brands fa-github border-2 border-black rounded-full border-solid md:text-3xl text-xl md:p-2 p-1 "></i>
           </Link>
           <Link
-            data-aos="zoom-in"
-            data-aos-once="true"
+            // data-aos="zoom-in"
+            // data-aos-once="true"
             href=" https://www.linkedin.com/in/muhammad-ahmed-siddiqui-webdeveloper/ "
             target="_blank"
           >
@@ -48,8 +48,8 @@ const Footer = () => {
         </HStack>
 
         <Text
-          data-aos="zoom-in"
-          data-aos-once="true"
+          // data-aos="zoom-in"
+          // data-aos-once="true"
           fontSize={["sm", "md"]}
           fontFamily="Montserrat"
           mb={["4", "6"]}
