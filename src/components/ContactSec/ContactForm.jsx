@@ -29,7 +29,7 @@ const ContactForm = () => {
     }, 5000);
   };
 
-  // const formId = process.env.REACT_APP_FORM_ID
+
 
   // DISCLOSURE FOR SUBMIT RESPONSE MODAL.
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -38,7 +38,7 @@ const ContactForm = () => {
   const [runConfetti, setRunConfetti] = useState(false);
 
   // USEFORM HOOK FOR SUBMITTING FORM TO FORMSPREE.
-  const [state, handleSubmitFormSpree] = useForm(process.env.VITE_FORM_ID);
+  const [state, handleSubmitFormSpree] = useForm(import.meta.env.VITE_FORM_ID);
 
   // FORMIK FORM STRUCTURING
   const { touched, errors, getFieldProps, handleSubmit } = useFormik({
@@ -114,7 +114,7 @@ const ContactForm = () => {
 
   return (
     <>
-    {console.log(process.env.VITE_FORM_ID)}
+ 
       <Box
         id="contact"
         bg="blackAlpha.500"
