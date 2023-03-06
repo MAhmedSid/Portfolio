@@ -37,7 +37,7 @@ const ContactForm = () => {
   // SWITCH FOR RUN CONFETTI EXPLOSION.
   const [runConfetti, setRunConfetti] = useState(false);
 
-  // USEFORM HOOK FOR SUBMITTING FORM TO FORMSPREE. (Also Using Env) 
+  // USEFORM HOOK FOR SUBMITTING FORM TO FORMSPREE. (Also Using Env)
   const [state, handleSubmitFormSpree] = useForm(import.meta.env.VITE_FORM_ID);
 
   // FORMIK FORM STRUCTURING
