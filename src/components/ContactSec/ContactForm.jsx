@@ -114,6 +114,7 @@ const ContactForm = () => {
 
   return (
     <>
+    {console.log(process.env.VITE_FORM_ID)}
       <Box
         id="contact"
         bg="blackAlpha.500"
